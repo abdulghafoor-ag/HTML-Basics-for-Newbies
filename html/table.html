@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body{
+             background-color: rgb(135, 191, 51); 
+             color: #ffff; 
+        }
+        table{
+           
+            border-collapse: collapse;
+            text-align: center;
+            color: black;
+           
+        }
+        td, th{
+             border: 1px solid white;
+        }
+        tr{
+            background-color: rgb(208, 208, 171);
+        }
+        tr:nth-child(even){
+            background-color: #ec4545;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Table</h1>
+
+    <table style=" width:100%;">
+        <tr>
+            <th>Country Name</th>
+            <th>Country Code</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Pakistan</td>
+            <td>Pak</td>
+            <td>pakistan@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>India</td>
+            <td>In</td>
+            <td>india@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>United State of America</td>
+            <td>USA</td>
+            <td>usa@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>United Kingdom</td>
+            <td>UK</td>
+            <td>unitedkingdom@gmail.com</td>
+        </tr>
+    </table>
+<br>
+    <table>
+        <tr>
+            <th>Country</th>
+            <td>Pakistan</td>
+            <td>India</td>
+            <td>United State of America</td>
+        </tr>
+        <tr>
+            <th>Code</th>
+            <td>Pak</td>
+            <td>In</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>pak@gmail.com</td>
+            <td>in@gmail.com</td>
+            <td>usa@gmail.com</td>
+        </tr>
+    </table>
+    <br>
+<table>
+    <colgroup>
+    <col span="2" style="background-color: coral;"/>
+    </colgroup>
+
+    <tr>
+        <th>Country</th>
+        <td>Pakistan</td>
+        <td>India</td>
+        <td>United State of America</td>
+    </tr>
+    <tr>
+        <th>Code</th>
+        <td>Pak</td>
+        <td>In</td>
+        <td>USA</td>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td>pak@gmail.com</td>
+        <td>in@gmail.com</td>
+        <td>usa@gmail.com</td>
+    </tr>
+</table>
+
+</body>
+</html>

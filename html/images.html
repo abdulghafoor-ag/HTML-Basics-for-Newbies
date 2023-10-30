@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        body{
+            background-color: #414141;
+        }
+    </style>
+</head>
+<body>
+
+<!--      -->
+    <!-- <!-- <!-- <!-- <!-- <!-- <!-- <!-- <img src="https://media.istockphoto.com/id/1383796215/photo/silhouette-of-man-holding-binoculars-on-mountain-peak-against-bright-sunlight-sky-background.jpg?b=1&s=612x612&w=0&k=20&c=7qil3OYFwP814_tFl1b-nPHloTptreuOeWA0HOLE5pE=" width="100px" alt="No Image Shown"> --> --> --> --> --> --> --> -->
+<!--  -->
+    <!-- <img src="./pic.jpg" width="100px" alt="No Image Shown"> -->
+<!--  -->
+<!-- <picture> -->
+    <!-- <!-- <source media="(min-width:650px)" srcset="./pic.jpg"/> --> -->
+    <!-- <!-- <source media="(min-width:460px)" srcset="./pic.jpg"/> --> -->
+    <!-- <!-- <source media="(min-width:200px)" srcset="./pic.jpg"/> --> -->
+    <!-- <img src="./pic.jpg" alt="Pic not showing"> -->
+<!-- </picture> -->
+<!--  -->
+<!-- an image map generator -->
+
+<img src="abc.jpg" usemap="#image-map">
+
+<map name="image-map">
+    <area onclick="A()" target="" alt="" title="" href="" coords="231,264,134,168" shape="rect">
+    <area onclick="B()" target="" alt="" title="" href="" coords="252,107,348,261" shape="rect">
+    <area onclick="C()" target="" alt="" title="" href="" coords="376,161,452,261" shape="0">
+</map>
+
+<script>
+    function A(){
+        alert("You Clicked on A")
+    }
+
+     function B() {
+            alert("You Clicked on B")
+        }
+
+     function C() {
+            alert("You Clicked on C")
+        }
+    </script>
+
+</body>
+</html>
